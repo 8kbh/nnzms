@@ -1263,8 +1263,13 @@ def map_activity(value):
     activity_map = {
         'peroxidase': 1,
         'glutathione peroxidase': 1,
+        'thioredoxin peroxidase': 1,
+        
         'oxidase': 2,
+        
         'catalase': 3,
+        'catalysis': 3,
+        
         'laccase': 4,
         'unknown': np.nan,
         'superoxide dismutase': 5,
@@ -1272,24 +1277,27 @@ def map_activity(value):
         'hydrolase': 7,
         'glutathione s-transferase': 8,
         'esterase': 9,
+        
         'glutathione reductase': 10,
-        'reductase': 11,
-        'thioredoxin peroxidase': 12,
+        'thioredoxin reductase': 10,
+        'reductase': 10,
+        
         'protease': 13,
         'antioxidant': 14,
         'rna splicing': 15,
+        
         'dehydrogenase': 16,
+        'aldehyde dehydrogenase': 26,
+        
         'oxidation': 17,
         'lipase': 18,
         'phosphorylase': 19,
-        'thioredoxin reductase': 20,
         'dnase': 21,
         'phosphodiesterase': 22,
         'rnase': 23,
         'lyase': 24,
         'multiple antioxidant enzymes': 25,
         'antimicrobial': 26,
-        'aldehyde dehydrogenase': 27,
         'synthetase': 28,
         'chitinase': 29,
         'oxidative stress marker': 30,
@@ -1302,7 +1310,6 @@ def map_activity(value):
         'deiodinase': 37,
         'glutathione': 38,
         'deaminase': 39,
-        'catalysis': 40,
         'cyclase': 41,
         'thioredoxin': 42,
         'glucanase': 43
