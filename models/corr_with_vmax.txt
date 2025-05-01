@@ -1,0 +1,9 @@
+lgCcat
+BalabanJ
+Cconst
+BCUT2D_CHGLO
+lgCconst
+lgvolume
+lgCmin
+Sufrace
+activity
