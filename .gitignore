@@ -2,3 +2,4 @@ __pycache__
 .ipynb_checkpoints
 tmp
 catboost_info
+models/saved_models
